@@ -2,6 +2,10 @@
 \usepackage[a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm,bindingoffset=5mm]{geometry}
 \usepackage[ngerman]{babel}
 \usepackage{graphicx} 
+\usepackage{cite}
+\usepackage[utf8]{inputenc}
+\bibliographystyle{IEEEtran}
+
 \begin{document}
 \begin{titlepage}
 \begin{verbatim}
@@ -64,16 +68,37 @@
 \end{titlepage}
 \newpage
 
-\section{Einleitung}
+\section{Einleitung/Problemstellung}
+IBM Notes (früher Lotus Notes \cite{LotusNotes}) ist auf die Bankenbranche spezialisiert und bietet sehr viele Konfigurationsmöglichkeiten. In der Firma Loom Technologies wurde bisher die Datenbank von IBM Notes genutzt. Der Umfang welches Notes bietet wird nie/nicht ausgeschöpft, verursacht aber trotzdem hohe Kosten. Es stellt sich also die Frage, übersteigen die Kosten den Nutzen?\\
+Text 2 \cite{IBMNotesWiki}.
+\section{Stand der Forschung}
 
-\section{Problemstellung/Fragestellung}
-
-\section{Zielsetzung}
-
+\section{Fragestellung/Zielsetzung}
+Wie vorher beschrieben, wird eine Umstellung der Datenbank angestrebt. Um festzustellen welche Datenbank Alternative in Frage kommt, sollen verschiedenen Kriterien verglichen werden. Diese sind z.B. Kosten, Typ: SQL/NoSQL/semati., Support/Community, etc. 
 \section{Abgrenzung}
-
+In der Bachelorarbeit soll es vor allem darum gehen wie die neue Datenbank in ein bereits vorhanden System, welches von Notes DB genutzt wurde, integriert wird.
 \section{Methodische Vorgehen}
-
+Ziele festlegen(Funktionen definieren),  Datenbank aufsetzen, Fälle testen 
 \section{Arbeits- und Zeitplan}
+Für die Fertigstellung der Bachelorarbeit stehen mir 2 Monaten zu Verfügung.
+\begin{flushleft}
+\begin{center}
+\begin{tabular}{|l|c|}
+\hline
+Recherche und Einordnung & Drei Wochen\\
+\hline
+Einordnung und Auswertung & Eine Woche\\
+\hline
+Aufbereitung & Eine Woche\\
+\hline
+Präsentationserstellung und Dokumentation & Drei Wochen\\
+\hline
+Korrekturlesen und Endredaktion & Eine Woche \\
+\hline
+\end{tabular}
+\end{center}
+\end{flushleft}
+
+\bibliography{literatur} 
 
 \end{document}
